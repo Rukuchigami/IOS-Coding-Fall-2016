@@ -55,7 +55,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else if indexPath.section == 5{
             let myCell = tableView.dequeueReusableCell(withIdentifier: "myCell6")
             myCell?.textLabel?.text = clock[indexPath.row]
-            myCell?.detailTextLabel?.text = "detail label :)"
+            myCell?.detailTextLabel?.text = "Hi"
             return myCell!
         }else if indexPath.section == 6{
             let myCell = tableView.dequeueReusableCell(withIdentifier: "myCell7")
@@ -65,7 +65,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }else {
             let myCell = tableView.dequeueReusableCell(withIdentifier: "myCell8")
             myCell?.textLabel?.text = weather[indexPath.row]
-            myCell?.detailTextLabel?.text = "detail label :)"
+            myCell?.detailTextLabel?.text = "Hello"
             return myCell!
         }
     }
